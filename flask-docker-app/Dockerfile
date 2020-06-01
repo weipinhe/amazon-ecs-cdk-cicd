@@ -5,7 +5,7 @@ pip install --upgrade pip && \
 pip install flask
 
 ENV FLASK_APP app.py
-ENV PLATFORM 'My Amazon EKS'
+ENV PLATFORM 'My Amazon ECS'
 
 WORKDIR /app
 COPY . /app/
